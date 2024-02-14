@@ -11,8 +11,8 @@ const INFO_MSG = {
 };
   
 const IMG_SRC = {
-    [INFO_TYPE.RUN] : "src/assets/run.png",
-    [INFO_TYPE.NO_DATA]: "src/assets/no-data.png"
+    [INFO_TYPE.RUN] : "images/run.png",
+    [INFO_TYPE.NO_DATA]: "images/no-data.png"
 }
   
 type InfoProps = {

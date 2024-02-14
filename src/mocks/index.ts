@@ -7,8 +7,8 @@ export enum QUERY {
 };
 
 export const QUERY_DATA_MAP = {
-    [QUERY.CUSTOMERS] : 'src/mocks/customers.csv',
-    [QUERY.ORDER] : 'src/mocks/orders.csv',
-    [QUERY.PRODUCTS] : 'src/mocks/products.csv',
-    [QUERY.SUPPLIERS] : 'src/mocks/suppliers.csv',
+    [QUERY.CUSTOMERS] : 'mocks/customers.csv',
+    [QUERY.ORDER] : 'mocks/orders.csv',
+    [QUERY.PRODUCTS] : 'mocks/products.csv',
+    [QUERY.SUPPLIERS] : 'mocks/suppliers.csv',
 };
