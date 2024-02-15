@@ -4,6 +4,12 @@ SQL-Query is a web-based application capable of running SQL queries and displayi
 ## Walkthrough Video
 [Click here to watch the walkthrough video](#)
 
+## Queries
+- select * from customers;
+- select * from orders;
+- select * from products;
+- select * from suppliers;
+
 ## Frameworks and Tools Used
 - **React**: A JavaScript library for building user interfaces. [Learn more about React](https://reactjs.org/)
 - **PapaParse**: A powerful CSV parser for JavaScript. [Learn more about PapaParse](https://www.papaparse.com/)
