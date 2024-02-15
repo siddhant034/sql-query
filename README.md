@@ -2,7 +2,7 @@
 SQL-Query is a web-based application capable of running SQL queries and displaying the results of said query. It provides a user-friendly interface for executing SQL queries and viewing the results in a tabular format.
 
 ## Walkthrough Video
-[Click here to watch the walkthrough video](#)
+[Click here to watch the walkthrough video](https://www.loom.com/share/c5823d9ba95849f99a9202e3dbadfc0b)
 
 ## Queries
 - select * from customers;
