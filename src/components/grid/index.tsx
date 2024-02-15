@@ -24,6 +24,15 @@ export const Grid: React.FC<{
       headerName: col,
       field: col,
     }));
+
+    columnDefs = [
+      {
+        headerName: "Index",
+        valueGetter: "node.rowIndex + 1",
+        width:100
+      },
+      ...columnDefs
+    ]
   }
 
   if (!rowData?.length || !columnDefs?.length) {
@@ -56,6 +65,9 @@ export const Grid: React.FC<{
         rowData={rowData}
         columnDefs={columnDefs}
         onGridReady={onGridReady}
+        autoSizeStrategy={{
+          type: 'fitCellContents'
+      }}
       />
     </div>
   );

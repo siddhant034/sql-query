@@ -23,8 +23,6 @@ function useGetData(query: QUERY | null) {
             },
             header: true,
           });
-        } else {
-          
         }
       } catch (error) {
         setError(error);
